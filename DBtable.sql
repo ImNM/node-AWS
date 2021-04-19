@@ -1,0 +1,9 @@
+CREATE TABLE `DBTEST`.`new_table` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(20) CHARACTER SET 'DEFAULT' NOT NULL,
+  `password` VARCHAR(45) NOT NULL,
+  `email` VARCHAR(100) NOT NULL,
+  PRIMARY KEY (`id`));
+
+ALTER TABLE `DBTEST`.`new_table` 
+RENAME TO  `DBTEST`.`user` ;
